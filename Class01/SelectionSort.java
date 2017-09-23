@@ -32,7 +32,7 @@ public class SelectionSort {
       // Initialize minInde as i
       int minIndex = i;
       // find the min value's index from i + 1 to the end of array
-      for (int j = i + 1; j < array.length; i++) {
+      for (int j = i + 1; j < array.length; j++) {
         // found value < current min
         if (array[j] < array[minIndex]) {
           // update minIndex
