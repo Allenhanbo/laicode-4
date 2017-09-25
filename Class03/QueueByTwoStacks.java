@@ -1,5 +1,5 @@
 /**
- *
+ * By Jiapei Liang
  * Java: Implement a queue by using two stacks. The queue should provide size(),
  * isEmpty(), offer(), poll() and peek() operations. When the queue is empty,
  * poll() and peek() should return null.
