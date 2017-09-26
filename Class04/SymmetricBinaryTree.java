@@ -47,7 +47,7 @@ public class SymmetricBinaryTree {
 
   // Recursively checking whether root1.left == root2.right && root1.right == root2.left
 
-  // Time: O(n)
+  // Time: O(n) = O(2^logn)
   // Space: O(height)
   public boolean isSymmetric(TreeNode root) {
     if (root == null) {
